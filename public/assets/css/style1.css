@@ -118,6 +118,7 @@ body {
     max-width: 100%;
     overflow-x: hidden;
 }
+
 img {
     max-width: 100%;
     height: auto;
@@ -156,6 +157,7 @@ h6 {
 p {
     margin-bottom: 20px;
 }
+
 .get-started {
     width: 147px;
     border: 1px solid gray;
@@ -165,10 +167,12 @@ p {
     font-weight: 100;
     text-transform: unset;
 }
-.card{
+
+.card {
     border-radius: 10px;
 }
-.collection{
+
+.collection {
     width: 587px;
     height: 417px;
     background-color: #242424;
@@ -177,11 +181,12 @@ p {
     background-repeat: no-repeat;
     object-fit: cover;
 }
-.collection-section{
+
+.collection-section {
     background-color: white;
 }
 
-.product-card{
+.product-card {
     min-width: 289px;
     width: 100%;
     min-height: 324px;
@@ -190,6 +195,7 @@ p {
     border: none;
     border-radius: 10px;
 }
+
 figure {
     margin: 0;
 }
@@ -2142,7 +2148,6 @@ select {
     background: url(../images/select-arrow.png) center right no-repeat;
 }
 
-button,
 input[type="submit"],
 input[type="button"],
 .dreaming-btn {
@@ -2291,6 +2296,14 @@ td {
     left: calc(50% + 618px);
 }
 
+.owl-slick .slick-arrow.prev::before {
+    content: "<";
+}
+
+.owl-slick .slick-arrow.next::before {
+    content: ">";
+}
+
 /*top-right*/
 .kodory-products.style-06 .owl-slick .slick-arrow {
     text-align: center;
@@ -2387,7 +2400,8 @@ footer {
 
 .footer-title {
     font-size: 16px;
-    color: #F3F3F3;;
+    color: #F3F3F3;
+    ;
 }
 
 .footer-text {
@@ -2448,19 +2462,22 @@ footer {
 .footer-copyright a {
     font-size: 12px;
 }
+
 /* the slides */
 .slick-slide {
     margin: 0 10px !important;
 }
+
 /* the parent */
 .slick-list {
     margin: 0 -10px;
 }
 
-.footer{
+.footer {
     border-radius: 10px;
 }
-.card-body{
+
+.card-body {
     padding: 0px !important;
 }
 
@@ -13122,13 +13139,13 @@ body.error404 .header {
     margin: auto;
 }
 
-.modal-content {
+/* .modal-content {
     border: none;
     border-radius: 50%;
     -webkit-box-shadow: none;
     -moz-box-shadow: none;
     box-shadow: none;
-}
+} */
 
 .modal-backdrop.in {
     opacity: 0.8;

@@ -32,3 +32,4 @@ Route::view('/search', 'search')->name('search');
 Route::view('/blog', 'blog')->name('blog');
 Route::view('/blog-detail', 'blog-detail')->name('blog-detail');
 Route::view('/chat', 'chat')->name('chat');
+Route::view('/product-detail', 'product-detail')->name('product-detail');

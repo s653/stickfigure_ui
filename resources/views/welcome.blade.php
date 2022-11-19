@@ -343,6 +343,37 @@
                             </div>
                         </div>
                     </div>
+                    <div class="slide-wrap">
+                        <div class="card"
+                            style="width: 100%; border: none; border-radius: 12px; background-color: black;">
+                            <div class="card-body" style="background-color: #FFFFFF; border-radius: 10px;">
+                                <div class="row justify-content-center mt-3"
+                                    style="margin-left: 0px !important; margin-right: 0px !important;">
+                                    <img class="img-fluid img-thumbnail gm-image" style="border: none;"
+                                        src="{{ asset('assets/images/Rectangle 41.png') }}" />
+
+                                    <h4 style="margin-bottom: 0px; font-weight: 700">Natasha Bassett</h4>
+                                    <div class="row mb-3">
+                                        <div class="col-md-12 d-flex">
+                                            <div class="col-md-6 d-flex flex-column align-items-center text-center">
+                                                <span>745</span>
+                                                <p style="margin:0px;font-weight: 700;font-size:10px;">Follower</p>
+                                            </div>
+                                            <div class="col-md-6 d-flex flex-column align-items-center text-center">
+                                                <span>745</span>
+                                                <p style="margin:0px;font-weight: 700;font-size:10px;">Following</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="footer d-flex justify-content-center"
+                                style="background-color: #242424;border-top-right-radius: 0px;border-top-left-radius: 0px;">
+                                <button class="btn btn-primary" style="background-color: #242424; border: none;">View
+                                    Profile</button>
+                            </div>
+                        </div>
+                    </div>
                 </div>
                 <div class="container d-flex justify-content-center mt-4">
                     <p>P.s. You can be our next user of the day!! All you have to do is to pick, stick, print and share!</p>

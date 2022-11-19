@@ -3,7 +3,7 @@
         <div class="row w-100">
             <div class="col-lg-12 d-flex justify-content-between">
                 <div class="col-lg-3">
-                    <a class="navbar-brand" href="#">
+                    <a class="navbar-brand" href="/">
                         <img src="{{ asset('assets/images/logo.png') }}" />
                     </a>
                     <button class="navbar-toggler" type="button" data-toggle="collapse"
@@ -33,7 +33,9 @@
                             <h6 class="my-0" style="font-family: RockoFLF Regular;">Nadeem</h6>
                         </div>
                         <img class="mx-4" src="{{ asset('assets/images/ShareNetwork.svg') }}" />
-                        <img src="{{ asset('assets/images/StoreFront.svg') }}" style="margin-right: -40px;" />
+                        {{-- <a href="#"  data-toggle="modal" data-target="#cartModal"> --}}
+                            <img src="{{ asset('assets/images/StoreFront.svg') }}" style="margin-right: -40px;cursor: pointer;" id="opencartModal" />
+                        {{-- </a> --}}
                     </div>
                 </div>
             </div>

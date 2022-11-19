@@ -3,7 +3,7 @@
         <div class="row w-100">
             <div class="col-lg-12 d-flex justify-content-between">
                 <div class="col-lg-3">
-                    <a class="navbar-brand" href="#">
+                    <a class="navbar-brand" href="/">
                         <img src="{{ asset('assets/images/logo.png') }}" />
                     </a>
                     <button class="navbar-toggler" type="button" data-toggle="collapse"
